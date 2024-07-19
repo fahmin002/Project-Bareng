@@ -1,0 +1,133 @@
+CRITICAL - 2024-07-14 05:44:13 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH/CodeIgniter.php on line 190.
+ 1 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH/Boot.php(101): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 ROOTPATH/spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:44:13 --> ErrorException: Uncaught Error: Class "Locale" not found in /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/I18n/TimeTrait.php:76
+Stack trace:
+#0 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/I18n/TimeTrait.php(117): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(395): CodeIgniter\I18n\Time::now()
+#2 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(373): CodeIgniter\HTTP\Response->sendHeaders()
+#3 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Debug/ExceptionHandler.php(83): CodeIgniter\HTTP\Response->send()
+#4 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Debug/Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Boot.php(312): CodeIgniter\CodeIgniter->initialize()
+#1 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Boot.php(101): CodeIgniter\Boot::initializeCodeIgniter()
+#2 /Users/fahminabilmaulana/Documents/Development/php/repository/spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#3 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH/I18n/TimeTrait.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-14 05:50:27 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH/CodeIgniter.php on line 190.
+ 1 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH/Boot.php(101): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 ROOTPATH/spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:50:27 --> ErrorException: Uncaught Error: Class "Locale" not found in /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/I18n/TimeTrait.php:76
+Stack trace:
+#0 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/I18n/TimeTrait.php(117): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(395): CodeIgniter\I18n\Time::now()
+#2 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(373): CodeIgniter\HTTP\Response->sendHeaders()
+#3 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Debug/ExceptionHandler.php(83): CodeIgniter\HTTP\Response->send()
+#4 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Debug/Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Boot.php(312): CodeIgniter\CodeIgniter->initialize()
+#1 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Boot.php(101): CodeIgniter\Boot::initializeCodeIgniter()
+#2 /Users/fahminabilmaulana/Documents/Development/php/repository/spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#3 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH/I18n/TimeTrait.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-14 05:52:57 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH/CodeIgniter.php on line 190.
+ 1 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH/Boot.php(101): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 ROOTPATH/spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:52:57 --> ErrorException: Uncaught Error: Class "Locale" not found in /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/I18n/TimeTrait.php:76
+Stack trace:
+#0 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/I18n/TimeTrait.php(117): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(395): CodeIgniter\I18n\Time::now()
+#2 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(373): CodeIgniter\HTTP\Response->sendHeaders()
+#3 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Debug/ExceptionHandler.php(83): CodeIgniter\HTTP\Response->send()
+#4 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Debug/Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Boot.php(312): CodeIgniter\CodeIgniter->initialize()
+#1 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Boot.php(101): CodeIgniter\Boot::initializeCodeIgniter()
+#2 /Users/fahminabilmaulana/Documents/Development/php/repository/spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#3 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH/I18n/TimeTrait.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-07-14 04:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-14 04:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-14 04:28:49 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:186
+Stack trace:
+#0 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(186): mysqli->real_connect('localhost', 'admin', Object(SensitiveParameterValue), 'repository', 3306, '', 0)
+#1 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /Users/fahminabilmaulana/Documents/Development/php/repository/app/Controllers/AuthController.php(24): CodeIgniter\BaseModel->first()
+#7 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\AuthController->doLogin()
+#8 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /Users/fahminabilmaulana/Documents/Development/php/repository/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/fahminab...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 /Users/fahminabilmaulana/Documents/Development/php/repository/app/Controllers/AuthController.php(24): CodeIgniter\BaseModel->first()
+#6 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\AuthController->doLogin()
+#7 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/fahminabilmaulana/Documents/Development/php/repository/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/fahminabilmaulana/Documents/Development/php/repository/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/fahminab...')
+#13 {main}
+CRITICAL - 2024-07-14 04:28:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: POST, Route: auth/login]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/AuthController.php(24): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->doLogin()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fahminabilmaulana/Documents/Development/php/repository/public/index.php')

@@ -1,0 +1,14 @@
+CRITICAL - 2024-06-26 23:00:56 --> ParseError: syntax error, unexpected end of file
+[Method: CLI, Route: serve]
+in APPPATH/Config/Routes.php on line 14.
+ 1 SYSTEMPATH/CLI/Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/Boot.php(351): CodeIgniter\CLI\Console->run()
+ 3 SYSTEMPATH/Boot.php(104): CodeIgniter\Boot::runCommand()
+ 4 ROOTPATH/spark(84): CodeIgniter\Boot::bootSpark()
+CRITICAL - 2024-06-26 23:01:25 --> ParseError: syntax error, unexpected end of file
+[Method: CLI, Route: serve]
+in APPPATH/Config/Routes.php on line 14.
+ 1 SYSTEMPATH/CLI/Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/Boot.php(351): CodeIgniter\CLI\Console->run()
+ 3 SYSTEMPATH/Boot.php(104): CodeIgniter\Boot::runCommand()
+ 4 ROOTPATH/spark(84): CodeIgniter\Boot::bootSpark()
