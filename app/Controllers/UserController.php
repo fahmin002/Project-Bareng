@@ -20,7 +20,7 @@ class UserController extends BaseController
     public function create()
     {
         $roleModel = new RoleModel();
-        $data['roles'] = $roleModel->findAll();
+        $data['roles'] = $roleModel->where('role_name', 'dosen')->first();
         return view('users/create', $data);
     }
 
@@ -29,7 +29,7 @@ class UserController extends BaseController
         $model = new UserModel();
         $data = [
             'username' => $this->request->getVar('username'),
-            'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+            'password' => $this->request->getVar('password'),
             'role_id' => $this->request->getVar('role_id')
         ];
         $model->save($data);
@@ -41,7 +41,7 @@ class UserController extends BaseController
         $model = new UserModel();
         $roleModel = new RoleModel();
         $data['user'] = $model->find($id);
-        $data['roles'] = $roleModel->findAll();
+        $data['roles'] = $roleModel->where('role_name', 'dosen')->first();
         return view('users/edit', $data);
     }
 
@@ -50,7 +50,7 @@ class UserController extends BaseController
         $model = new UserModel();
         $data = [
             'username' => $this->request->getVar('username'),
-            'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+            'password' => $this->request->getVar('password'),
             'role_id' => $this->request->getVar('role_id')
         ];
         $model->update($id, $data);

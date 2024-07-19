@@ -12,7 +12,7 @@ class KaryaModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['user_id', 'title', 'description', 'file_path', 'category', 'author'];
+    protected $allowedFields    = ['user_id', 'title', 'description', 'file_path', 'category', 'author', 'tahun'];
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;
@@ -28,10 +28,11 @@ class KaryaModel extends Model
     protected $deletedField  = 'deleted_at';
 
     // Validation
-    protected $validationRules      = [];
+    protected $validationRules = [];
     protected $validationMessages   = [];
     protected $skipValidation       = false;
     protected $cleanValidationRules = true;
+    
 
     // Callbacks
     protected $allowCallbacks = true;

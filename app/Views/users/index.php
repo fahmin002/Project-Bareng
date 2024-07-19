@@ -25,7 +25,7 @@
 
         <div class="row">
             <div class="col-12">
-                <a class="btn btn-primary newUser" href="/users/create">New User <i class="bi bi-people"></i></a>
+                <a class="btn btn-primary newUser" href="/users/create">New Dosen <i class="bi bi-people"></i></a>
             </div>
         </div>
 
@@ -63,7 +63,11 @@
         </div>
 
     </section>
-
+    <div class="row">
+            <div class="col-12">
+                <a class="btn btn-primary newUser" href="/auth/logout">logout <i class="bi bi-people"></i></a>
+            </div>
+        </div>
     <!--Read Data Modal-->
     <div class="modal fade" id="readData">
         <div class="modal-dialog modal-dialog-centered modal-lg">
