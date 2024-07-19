@@ -72,7 +72,9 @@ class KaryaController extends Controller
                 'description' => $this->request->getVar('description'),
             ];
         } 
-        unlink(WRITEPATH . 'uploads/' . $oldFile['file_path']);
+        if($oldFile['file_path']){
+            unlink(WRITEPATH . 'uploads/' . $oldFile['file_path']);
+        }
         $model->update($id, $data);
 
         return redirect()->to('/karya');

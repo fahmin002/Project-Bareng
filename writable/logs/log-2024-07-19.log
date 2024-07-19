@@ -547,3 +547,57 @@ INFO - 2024-07-19 15:47:05 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-07-19 15:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-07-19 15:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-07-19 15:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 15:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 15:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 15:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 15:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 15:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-19 15:53:29 --> ErrorException: unlink(/Users/fahminabilmaulana/Documents/Development/php/Project-Bareng/writable/uploads/20240719/1721404043_06b1186d672dc5ef745f.docx): No such file or directory
+[Method: POST, Route: karya/edit/13]
+in APPPATH/Controllers/KaryaController.php on line 75.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/Users/fahminabilmaulana/Documents/Development/php/Project-Bareng/writable/uploads/20240719/1721404043_06b1186d672dc5ef745f.docx): No such file or directory', '/Users/fahminabilmaulana/Documents/Development/php/Project-Bareng/app/Controllers/KaryaController.php', 75)
+ 2 APPPATH/Controllers/KaryaController.php(75): unlink('/Users/fahminabilmaulana/Documents/Development/php/Project-Bareng/writable/uploads/20240719/1721404043_06b1186d672dc5ef745f.docx')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\KaryaController->update('13')
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KaryaController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/fahminabilmaulana/Documents/Development/php/Project-Bareng/public/index.php')
+INFO - 2024-07-19 15:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-19 15:55:27 --> ErrorException: unlink(/Users/fahminabilmaulana/Documents/Development/php/Project-Bareng/writable/uploads/20240719/1721404043_06b1186d672dc5ef745f.docx): No such file or directory
+[Method: POST, Route: karya/edit/13]
+in APPPATH/Controllers/KaryaController.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/Users/fahminabilmaulana/Documents/Development/php/Project-Bareng/writable/uploads/20240719/1721404043_06b1186d672dc5ef745f.docx): No such file or directory', '/Users/fahminabilmaulana/Documents/Development/php/Project-Bareng/app/Controllers/KaryaController.php', 76)
+ 2 APPPATH/Controllers/KaryaController.php(76): unlink('/Users/fahminabilmaulana/Documents/Development/php/Project-Bareng/writable/uploads/20240719/1721404043_06b1186d672dc5ef745f.docx')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\KaryaController->update('13')
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KaryaController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/fahminabilmaulana/Documents/Development/php/Project-Bareng/public/index.php')
+INFO - 2024-07-19 15:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-19 15:55:47 --> ErrorException: unlink(/Users/fahminabilmaulana/Documents/Development/php/Project-Bareng/writable/uploads/20240719/1721404043_06b1186d672dc5ef745f.docx): No such file or directory
+[Method: POST, Route: karya/edit/13]
+in APPPATH/Controllers/KaryaController.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/Users/fahminabilmaulana/Documents/Development/php/Project-Bareng/writable/uploads/20240719/1721404043_06b1186d672dc5ef745f.docx): No such file or directory', '/Users/fahminabilmaulana/Documents/Development/php/Project-Bareng/app/Controllers/KaryaController.php', 76)
+ 2 APPPATH/Controllers/KaryaController.php(76): unlink('/Users/fahminabilmaulana/Documents/Development/php/Project-Bareng/writable/uploads/20240719/1721404043_06b1186d672dc5ef745f.docx')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\KaryaController->update('13')
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KaryaController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/fahminabilmaulana/Documents/Development/php/Project-Bareng/public/index.php')
+INFO - 2024-07-19 15:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 15:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 15:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 15:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 15:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 15:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 15:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 15:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 15:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 15:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-19 15:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
